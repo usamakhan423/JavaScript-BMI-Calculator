@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Libre Baskerville', sans-serif;
+}
+.metric-container {
+    margin: 100px 300px;
+    padding: 2rem 4rem;
+    border: none;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 10px;
+    width: 50%;
+    height: 750px;
+    
+}
+.metric-container h1 {
+    padding: 1rem 0rem;
+    background-color: rgb(0, 0, 170);
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.metric-container p {
+    float: right;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.metric-container a span {
+    color: black;
+    text-decoration: none;
+    cursor: none;
+}
+.metric-container h2 {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.metric-container h2 span {
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.metric-container input {
+    padding: 10px;
+    color: rgb(83, 83, 83);
+    background-color: rgb(218, 218, 218);
+    outline: none;
+    border: none;
+    margin-bottom: 2rem;
+    
+}
+.metric-container .btn {
+    padding: 10px 20px;
+    background-color: rgb(2, 2, 152);
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    transition: .3s ease;
+}
+.metric-container .btn:hover {
+    background-color: black;
+    
+}
+.metric-container .outcomes {
+    margin-top: 3rem;
+}
+.metric-container .outcomes h4 {
+    padding: 20px;
+    border: 1px solid grey;
+    width: 250px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.metric-container .outcomes span {
+    font-size: 20px;
+    font-weight: 700;
+}
+.metric-container .outcomes p {
+    padding: 20px;
+    border: 1px solid grey;
+    width: 500px;
+    margin-top: 1rem;
+    text-align: left;
+    color: rgb(75, 74, 74);
+    margin-bottom: 2rem;
+}
